@@ -1,0 +1,119 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	background: url(header.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	font-size: 3.2rem;
+	color: #d3af37;
+}
+
+h2{
+    font-size: 2.2rem;
+}
+/* Modify existing class */
+.btn {
+	font-weight: 800;
+	border-radius: 300px;
+	text-transform: uppercase;
+	background-color: rgb(58, 56, 58);
+	border-color: rgb(58, 56, 58);
+	/* #1560bd; */
+	border-width: 4px;
+
+	/* padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 18px;
+    padding-left: 18px; */
+    padding: 8px;
+}
+
+.btn:hover {
+	background-color: #d3af37;
+	border-color: #d3af37;
+	border-width: 6px;
+}
+/* .btn-primary{
+    background-color: #BA7450;
+
+} */
+
+/* It is a normal class not boostratp we specified to make button looks larger */
+/* .btn-xl{
+    padding: 0.8rem 2rem;
+} */
+
+hr {
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer {
+	height: 1rem;
+}
+
+/* navbar */
+
+.navbar ul li a {
+	color: black;
+	font-weight: 700;
+	font-size: 1.1rem;
+}
+
+.navbar ul li a:hover {
+	color: #d3af37;
+	border-bottom: 2px solid rgba(250, 248, 248, 0.89);
+}
+
+.navbar-brand {
+	color: #bfa412;
+}
+
+.navbar-brand:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.btn-outline-danger {
+	color: white;
+	border-width: 2px;
+	font-size: 0.8rem;
+}
+
+.btn-outline-danger:hover {
+	color: #d3af37;
+	background-color: aliceblue;
+	border-width: 2px;
+	font-size: 0.8rem;
+}
+
+.form-control:focus {
+	color: #d3af37;
+	border-color: #d3af37;
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem #d3af37;
+}
+
+/* Logo  */
+#brand-image {
+	height: 70px;
+}
+
+.vector-logo {
+	/* width: 20px;
+    display: inline-block;
+    font-size: 111px; */
+	margin-left: 10px;
+}
+
+p{
+    font-size: 1rem;
+}
