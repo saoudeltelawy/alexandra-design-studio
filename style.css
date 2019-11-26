@@ -10,7 +10,7 @@ html {
 	/* font-family: 'Montserrat', sans-serif; */
 	/* font-family: 'Oswald', sans-serif; */
 	font-family: 'Lato', sans-serif;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 h1 {
@@ -145,3 +145,46 @@ p {
  /* This is instead using of h-100 class beside container class in HTML 
  Discord:
  @SaO You're using flexbox and align-items center, which means that whole row will be centered vertically. Perhaps the simplest way to move those things up is to change the height of the container. Right now it's set to be 100% with the bootstrap class h-100. */
+
+
+ /* Font Awesome  */
+ .fa {
+	/* padding: 20px; */
+	padding: 5px 4px;
+	font-size: 50px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 3px 2px;
+	border-radius: 20px;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+	  color: #d3af3c;
+	  background-color: white;
+  }
+
+
+.fa-facebook {
+	background:#3B5998;
+	color: white;
+	
+  }
+  
+
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  
+  
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+  
+  .fa-pinterest {
+	background: #cb2027;
+	color: white;
+  }
